@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn arabic</title>
+    <style>
+
+        .card {
+            height: 150px;
+            width: 15%;
+        }
+
+        .front, .back {
+            align-items: center;
+            display: flex;
+            font-size: 18px;
+            height: 100%;
+            justify-content: center;
+            width: 100%;
+        }
+
+        img {
+            width: 10vw;
+            height: 10vw;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 40vw;
+            height: 100vh;
+
+        }
+
+        .card {
+            background-color: #ccc;
+            width: 10vw;
+            height: 10vw;
+            font-family: "Lucida Console", "Courier New", monospace;
+            transform-style: preserve-3d;
+            transition: all 2s ease;
+        }
+
+        .card:hover {
+            transform: rotateY(180deg);
+        }
+
+        .front, .back {
+            position: absolute;
+            backface-visibility: hidden;
+        }
+
+        .back {
+            position: absolute;
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+        }
+
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border: 3px solid white;
+            width: fit-content;
+            padding: 0 100px;
+            background: dodgerblue;
+        }
+
+        .main {
+            margin: auto;
+            width: fit-content;
+            padding: 20px 100px;
+            background-image: url("125389898_998359643989295_9050819526571636763_n.jpg");
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1>What is the arabic word for</h1>
+    <div class="container">
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Hello</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>al-salam alaykum</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Nice to meet you</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>tasarrafna</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Yes</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>na'am</p></div>
+            </div>
+        </diV>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>No</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>la</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Please</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>min fadlik</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Thanks</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>Sukran</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Sorry</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>'ana 'asif</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>You're welcome</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>afwan></p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <div><p></p></div>
+                <div><p>Bye</p></div>
+            </div>
+            <div class="back">
+                <div><p></p></div>
+                <div><p>ma' al-salamah</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
